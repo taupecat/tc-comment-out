@@ -3,7 +3,7 @@
 * Contributors: taupecat
 * Requires at least: 2.5
 * Tested up to: 5.4.2
-* Stable tag: 2.0
+* Stable tag: 2.0.0
 * Tags: shortcode, comment-out, hide-content
 
 WordPress plugin that allows you to comment out content inside a post via a shortcode.

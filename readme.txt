@@ -2,7 +2,7 @@
 Contributors: taupecat
 Requires at least: 2.5
 Tested up to: 5.4.2
-Stable tag: 2.0
+Stable tag: 2.0.0
 Tags: shortcode, comment-out, hide-content
 
 Comment out page and post content using a shortcode.
