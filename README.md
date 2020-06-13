@@ -1,9 +1,9 @@
-# TC-Comment-Out
+# TC Comment Out
 
 * Contributors: taupecat
 * Requires at least: 2.5
-* Tested up to: 3.4.1
-* Stable tag: 1.2
+* Tested up to: 5.4.2
+* Stable tag: 2.0
 * Tags: shortcode, comment-out, hide-content
 
 WordPress plugin that allows you to comment out content inside a post via a shortcode.
@@ -14,7 +14,13 @@ Easily comment out page and post content using a shortcode.  Content is commente
 
 Simply place the opening shortcode [comment] at the beginning of the text you wish to comment out, and the closing shortcode [/comment] at the end.
 
-If you wish to hide the content entirely from view (so that it is _not_ visible in the browser source), set the optional type attribute to "hidden". Setting the type attribute to "html" will produce the default behavior, but is not required.
+If you wish to hide the content entirely from view (so that it is _not_ visible in the browser source), set the optional `type` attribute to "hidden". Setting the type attribute to "html" will produce the default behavior, but is not required.
+
+```
+[comment]This text will be commented out with HTML comments.[/comment]
+
+[comment type="hidden"]This text will not even be sent to the browser.[/comment]
+```
 
 ## Installation
 
@@ -22,6 +28,11 @@ If you wish to hide the content entirely from view (so that it is _not_ visible 
 2. Navigate to the Plugins section of the Dashboard and click "Activate".
 
 ## Changelog
+
+### Version 2.0
+* Changed license to MIT.
+* Fixed incompatibilities with WordPress 5.*.
+* Rewrote for cleaner code that meet WordPress Coding Standards (version 2.3.0)
 
 ### Version 1.2
 
