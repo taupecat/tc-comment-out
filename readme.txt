@@ -15,11 +15,11 @@ Simply place the opening shortcode [comment] at the beginning of the text you wi
 
 If you wish to hide the content entirely from view (so that it is <em>not</em> visible in the browser source), set the optional type attribute to "hidden". Setting the type attribute to "html" will produce the default behavior, but is not required.
 
-```
+`
 [comment]This text will be commented out with HTML comments.[/comment]
 
 [comment type="hidden"]This text will not even be sent to the browser.[/comment]
-```
+`
 
 == Installation ==
 
